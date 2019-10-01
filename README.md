@@ -47,3 +47,28 @@
 ![用户信息管理界面](http://img.flura.cn/1569854935227.png)
 
 这样再稍微配置下要部署的项目 就可以用这个脚本了。
+
+## 使用
+
+将deploy.js下载到你的项目根目录下。一般是webpack打包而成的单页面应用。页面打包生成dist文件夹目录，将dist文件夹上传到阿里云oss上。
+
+在package.json中加入这个脚本命令，用来更快的执行部署命令。也可以手动node deploy.js执行部署脚本。
+
+```
+"scripts": {
+  "deploy": "node deploy.js"
+},
+"devDependencies": {
+  "ali-oss": "^6.1.1",  // 这是阿里云的oss依赖，也可以直接手动npm install ali-oss --save-dev
+}
+```
+
+### 演示
+
+在这里 我演示一个将ant-design-pro构建的项目打包上传到oss上。
+
+![1569923829980](http://img.flura.cn/1569923829980.png)
+
+然后就可以访问到了(记得一定要在oss控制台设置index.html为首页)
+
+![1569928381648](http://img.flura.cn/1569928381648.png)
