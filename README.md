@@ -34,7 +34,7 @@
 
 ![Bucket域名](http://img.flura.cn/1569852876717.png)
 
-![DNS控制台解析](C:\Users\32761\AppData\Roaming\Typora\typora-user-images\1569853154407.png)
+![DNS控制台解析](http://img.flura.cn/1569853154407.png)
 
 ![域名管理](http://img.flura.cn/1569853473577.png)
 
@@ -82,3 +82,5 @@
 然后就可以访问到了(记得一定要在oss控制台设置index.html为首页)
 
 ![访问成功](http://img.flura.cn/1569928381648.png)
+
+在这里你可以通过访问 http://example-oss.flura.cn  访问到我的阿里云示例
